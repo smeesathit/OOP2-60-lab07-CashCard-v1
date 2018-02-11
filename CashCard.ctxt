@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=CashCard
+comment1.params=cardId\ cardBalance\ expiryDate
+comment1.target=CashCard(java.lang.String,\ double,\ java.util.GregorianCalendar)
+comment1.text=\r\n\ Constructor.\r\n\r\n\ @param\ cardId\t\tthe\ id\ of\ this\ card\r\n\ @param\ cardBalance\tthe\ balance\ of\ this\ card\r\n\ @param\ expiryDate\tthe\ expiry\ date\ of\ the\ balance\ in\ this\ card\r\n\r\n
+comment2.params=id
+comment2.target=void\ setCardId(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getCardId()
+comment4.params=date
+comment4.target=void\ setExpiryDate(java.util.GregorianCalendar)
+comment4.text=\r\n\ Sets\ the\ expiry\ date\ of\ the\ balance\ in\ this\ card\r\n\ \r\n\ @param\ the\ expiry\ date\ of\ the\ balance\ in\ this\ card\r\n
+comment5.params=
+comment5.target=java.util.GregorianCalendar\ getExpiryDate()
+comment5.text=\r\n\ Returns\ the\ expiry\ date\ of\ the\ balance\ in\ this\ card\r\n\r\n\ @return\ the\ expiry\ date\ of\ the\ balance\ in\ this\ card\r\n
+comment6.params=amount
+comment6.target=void\ refill(double)
+comment7.params=amount
+comment7.target=void\ deduct(double)
+comment8.params=
+comment8.target=double\ getBalance()
+comment9.params=
+comment9.target=java.lang.String\ toString()
+numComments=10
